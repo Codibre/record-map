@@ -1,7 +1,7 @@
 {
   "name": "record-map",
   "description": "Returns a Map implementation over a plain object",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "author": {
     "name": "Thiago O Santos <tos.oliveira@gmail.com>"
