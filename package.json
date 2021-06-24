@@ -1,6 +1,6 @@
 {
-  "name": "boilerplate-base",
-  "description": "This project is just a template for creation of new projects",
+  "name": "record-map",
+  "description": "Returns a Map implementation over a plain object",
   "version": "0.0.0",
   "private": true,
   "author": {
@@ -55,18 +55,20 @@
       "./src/**/*.ts"
     ],
     "testEnvironment": "node",
-    "setupFilesAfterEnv": ["./test/jest-setup.ts"]
+    "setupFilesAfterEnv": [
+      "./test/jest-setup.ts"
+    ]
   },
   "directories": {
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/codibre/boilerplate-base.git"
+    "url": "https://github.com/codibre/record-map.git"
   },
-  "homepage": "https://github.com/codibre/boilerplate-base#readme",
+  "homepage": "https://github.com/codibre/record-map#readme",
   "bugs": {
-    "url": "https://github.com/codibre/boilerplate-base/issues"
+    "url": "https://github.com/codibre/record-map/issues"
   },
   "keywords": [],
   "license": "MIT",
@@ -97,5 +99,8 @@
     "typedoc": "^0.20.34",
     "typedoc-plugin-markdown": "^3.6.0",
     "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "@codibre/fluent-iterable": "^1.18.0"
   }
 }
